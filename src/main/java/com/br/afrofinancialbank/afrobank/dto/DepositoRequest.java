@@ -1,0 +1,22 @@
+package com.br.afrofinancialbank.afrobank.dto;
+
+public class DepositoRequest {
+    private Long contaId;
+    private Double valor;
+
+    public Long getContaId() {
+        return contaId;
+    }
+
+    public void setContaId(Long contaId) {
+        this.contaId = contaId;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+}
