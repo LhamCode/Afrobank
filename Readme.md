@@ -21,6 +21,12 @@ O projeto seguirá os princípios da orientação a objetos (OO), utilizando enc
 │   │   │           │   ├── ClienteController.java
 │   │   │           │   ├── ContaController.java
 │   │   │           │   └── TransacaoController.java
+│   │   │           ├── 📂dto/
+│   │   │           │   ├── DepositoRequest.java
+│   │   │           │   ├── PagamentoRequest.java
+│   │   │           │   ├── SaqueRequest.java
+│   │   │           │   ├── SaldoResponse.java
+│   │   │           │   └── TransferenciaRequest.java
 │   │   │           ├──📂 model/           # Classes de modelo (entidades)
 │   │   │           │   ├── Cliente.java
 │   │   │           │   ├── Conta.java
