@@ -46,7 +46,7 @@ class ClienteControllerTests {
     @Test
     void testLoginCliente() {
         Cliente cliente = new Cliente();
-        cliente.setCpf("12345678901");
+        cliente.setCpf("12345678903");
         cliente.setSenha("senha123");
         when(clienteService.loginCliente(anyString(), anyString())).thenReturn(cliente);
 
@@ -72,7 +72,7 @@ class ClienteControllerTests {
         Cliente cliente = new Cliente();
         when(clienteService.buscarPorCpf(anyString())).thenReturn(cliente);
 
-        Cliente result = clienteController.buscarPorCpf("12345678901");
+        Cliente result = clienteController.buscarPorCpf("12345678903");
 
         assertNotNull(result);
         verify(clienteService, times(1)).buscarPorCpf(anyString());
